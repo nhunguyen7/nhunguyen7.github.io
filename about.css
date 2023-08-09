@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+.nav-btns li a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-weight: 500; */
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+} 
+
+.nav-bar{
+    /* background: white; */
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 1; */
+    /* transition: background-color 0.5s ease; */
+}
+
+
+/* .navbar-scrolled{
+    background-color: #000;
+} */
+
+/* .chngNav{ */
+    /* transition: color 0.5s; Add a smooth transition effect */
+/* } */
+
+/* .navBtns-scrolled{
+    color: white;
+} */
+
+header{
+    /* display: flex; */
+    align-items: center;
+    padding: 30px 5%;
+    /* background: black; */
+    /* position:fixed; */
+}
+
+.nav-bar p{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    /* font-family: Impact, fantasy; */
+    /* font-family: Bevietnampro, sans-serif; */
+    color: white;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    /* background-color: black; */
+    text-decoration: none;
+    /* font-weight: 900; */
+    font-weight: bold;
+    font-size: larger;
+    /* text-decoration: none; */
+    /* font-family: Arial, sans-serif;  */
+    
+}
+
+.logo a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-btns{
+    list-style: none;
+    /* background-color: black; */
+}
+
+/* .nav-bar nav{
+    background: black;
+} */
+
+.nav-btns li{
+    display: inline-block;
+    padding: 0px 10px;
+    margin-left: 15px;
+}
+
+.nav-btns li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-btns li a:hover{
+    font-weight: bold;
+}
+
+.nav-btns li a.bold{
+    font-weight: bold;
+}
+
+body{
+    background: #fcf8fe;
+    /* background: linear-gradient(45deg, #fcf8fe, #f6eded);
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.myStory{
+    padding: 8%;
+    align-items: center;
+    text-align: center;
+}
+
+.myStory h1{
+    margin-bottom: 30px;
+    /* font: italic 1.2em "Fira Sans", serif; */
+    /* font: italic small-caps bold 16px/2 cursive; */
+    /* font: caption; */
+    /* font: small-caps bold 24px/1 sans-serif; */
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: "Clarkson",Helvetica,sans-serif; */
+    /* font-family: Bevietnampro, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myStory p{
+    text-align: left;
+    /* padding: 5%; */
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: large;
+    /* font: italic 1.2em "Fira Sans", serif; */
+    /* font: caption; */
+    font-family: Verdana, sans-serif;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 5%;
+    background: black;
+    position: relative;
+    /* z-index: 1; */
+    padding: 6%;
+    margin-bottom: 0;
+    /* margin-bottom: 20px; */
+}
+
+.socials{
+    /* width: 300px; */
+    height: auto;
+}
