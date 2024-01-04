@@ -337,7 +337,7 @@ footer{
     }
 
     .nav-bar.active{
-/*         height: 25vh; */
+        height: 25vh;
         background-color: black;
     }
 
