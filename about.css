@@ -90,6 +90,25 @@ header{
     font-weight: bold;
 }
 
+.social-btns li a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+} 
+
+.social-btns{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.social-btns li{
+    margin-left: 20px;
+}
+
 body{
     background: #fcf8fe;
 }
