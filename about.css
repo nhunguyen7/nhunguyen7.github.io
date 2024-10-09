@@ -127,7 +127,9 @@ body{
 }
 
 .myStory p{
-    text-align: left;
+    /* text-align: left; */
+    font-weight: bold;
+    color: red;
     margin-left: 5%;
     margin-right: 5%;
     line-height: 148%;
