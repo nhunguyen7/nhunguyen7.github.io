@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+.nav-btns li a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+} 
+
+.nav-bar{
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+header{
+    padding: 30px 5%;
+}
+
+.nav-bar p{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    color: white;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.logo a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+.navbar-toggle span{
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 3px auto;
+    transition: 0.3s;
+}
+
+.nav-btns{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-btns li{
+    padding: 0px 10px;
+    margin-left: 15px;
+}
+
+.nav-btns li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav-btns li a:hover{
+    font-weight: bold;
+}
+
+.nav-btns li a.bold{
+    font-weight: bold;
+}
+
+.social-btns li a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+} 
+
+.social-btns{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.social-btns li{
+    margin-left: 20px;
+}
+
+body{
+    background: #fcf8fe;
+}
+
+.myStory{
+    padding: 8% 10% 10% 10%;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+}
+
+.myStory h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myStory p{
+    /* text-align: left; */
+    font-weight: bold;
+    color: red;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 148%;
+    font-family: Verdana, sans-serif;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 5%;
+    background: black;
+    position: relative;
+    padding: 6%;
+    margin-bottom: 0;
+}
+
+.socials{
+    height: auto;
+}
+
+@media (max-width: 750px) {
+    .navbar-toggle {
+        display: block;
+        top: 0;
+        z-index: 1;
+    }
+
+    .nav-bar.active{
+        height: 25vh;
+        background-color: black;
+    }
+
+    .nav-bar.active *{
+        color: white;
+    }
+
+    .nav-bar.active .navbar-toggle span{
+        background-color: white;
+    }
+
+    .nav-btns li{
+        padding: 10px 10px;
+    }
+
+    .nav-bar.active .nav-btns {
+        display: block;
+      }
+
+    .nav-btns {
+        z-index: 1;
+        position:absolute;
+        flex-direction: column;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+  
+    .nav-btns li {
+        width: 100%;
+        text-align: center;
+    }
+}
